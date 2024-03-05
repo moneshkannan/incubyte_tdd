@@ -7,7 +7,9 @@ def add(numbers)
 end
   
 # Test cases
-puts add("")    # Output: 0
-puts add("1")   # Output: 1
-puts add("1,5") # Output: 6
-  
+puts add("")
+puts add("1")
+puts add("1,5")
+# 2 Allow the add method to handle an any amount of numbers.
+puts add("1,2,3,4,5")
+puts add("10,20,30,40,50")
